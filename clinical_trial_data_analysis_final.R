@@ -8,7 +8,7 @@ library(ggplot2)
 
 # 2. Load data
 # Update the path if your CSV is stored in another folder.
-data <- read.csv("patients.csv", stringsAsFactors = FALSE)
+data <- read.csv("clean_patient_data.csv", stringsAsFactors = FALSE)
 
 # 3. Inspect the dataset
 head(data)
